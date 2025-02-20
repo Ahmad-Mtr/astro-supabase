@@ -12,6 +12,6 @@ export default defineConfig({
   // adapter: vercel(),
   integrations: [tailwind(), solidJs()],
   adapter: netlify({
-    edgeMiddleware: true
+    // edgeMiddleware: true
   })
 });
