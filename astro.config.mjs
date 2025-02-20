@@ -9,7 +9,7 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   site: "https://astro-supabase-auth.netlify.app",
   // output: "server",
-  // adapter: vercel(),
+  adapter: vercel(),
   integrations: [tailwind(), solidJs()],
   // adapter: netlify({// edgeMiddleware: true})
 });
