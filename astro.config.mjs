@@ -7,8 +7,8 @@ import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-supabase-auth.netlify.app",
-  output: "server",
+  site: "https://astro-supabase-sepia.vercel.app",
+  // output: "server",
   // adapter: vercel(),
   integrations: [tailwind(), solidJs()],
   // adapter: netlify({// edgeMiddleware: true})
